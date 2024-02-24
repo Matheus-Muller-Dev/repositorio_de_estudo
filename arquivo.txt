@@ -1,0 +1,25 @@
+ou envie um repositório existente a partir da linha de comando
+or create a new repository on the command line
+echo "# repositorio_de_estudo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Matheus-Muller-Dev/repositorio_de_estudo.git
+git push -u origin main
+
+
+
+
+ou crie um novo repositório na linha de comando
+or push an existing repository from the command line
+git remote add origin git@github.com:Matheus-Muller-Dev/repositorio_de_estudo.git
+git branch -M main
+git push -u origin main
+
+
+
+Por exemplo, ao usar o comando git push -u origin main, o parâmetro -u estabelece uma relação de 
+acompanhamento entre a sua branch local "main" e a branch remota "main" no repositório remoto chamado "origin". 
+Depois de configurar o acompanhamento, você pode simplesmente usar git push nas próximas vezes,
+ e o Git entenderá que você deseja enviar commits para a branch remota rastreada.
